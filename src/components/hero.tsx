@@ -10,15 +10,15 @@ export default function Hero() {
       <section className="w-full py-12 md:py-24 lg:py-32 flex flex-col items-center">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center space-y-8 text-center">
-            <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-9xl">
+            <h1 className="text-5xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-8xl uppercase">
               Identety
             </h1>
-            <h2 className="mx-auto max-w-[700px] text-gray-500 md:text-3xl dark:text-gray-400">
+            <h2 className="mx-auto max-w-[700px] text-gray-500 text-xl md:text-3xl dark:text-gray-400">
               Secure Authentication for Modern Applications
             </h2>
             <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              Protect your users with enterprise-grade authentication. Simple to
-              integrate, powerful to scale, and built for developers.
+              Secure, scalable, and developer-friendly identity management
+              platform—fully open source with no limits on self-hosting.
             </p>
             <div className="flex flex-col gap-4 min-[400px]:flex-row">
               <Button size="lg">Get Started</Button>
