@@ -5,7 +5,7 @@ import { CheckCircle, XCircle } from "lucide-react";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen">
+    <>
       <Hero />
 
       {/* Feature comparison */}
@@ -95,6 +95,6 @@ export default function Home() {
           </Button>
         </div>
       </section>
-    </div>
+    </>
   );
 }
